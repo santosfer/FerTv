@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box; 
+}
+  
+  body {
+    background-image: linear-gradient(45deg,#270d3b,#814fba); 
+    min-height: 100vh;
+    padding: 16px;
+    font-family: "Roboto Mono", monospace; 
+    text-align: center;
+  }
+  
+  .container {
+    display: flex; /* display -> é a forma que vamos mostrar os elementos na tela */
+    flex-direction: column; /* essa é uma propriedade do display flex, para colocar os elementos dispostos em colunas */
+    align-items: center; /* essa é uma propriedade do display flex, para alinhamento de itens */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .usuario {
+    width: 550px;
+    display: flex;
+    column-gap: 16px; /* essa é uma propriedade do display flex, para espaçamento entre colunas */
+    row-gap: 8px; /* essa é uma propriedade do display flex, para espaçamento entre linhas */
+    flex-wrap: wrap; /* essa é uma propriedade do display flex, para quebra de linha */
+  }
+  
+  .page-title {
+    color: #ffffff; /* color -> altera cor do texto */
+    margin: 0 0 5px; /* adiciona um espaçamento externo ao elemento */
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute; /* propriedade para posicionar elementos na tela, será muito esmiuçado no curso de HTML e CSS */
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+  
+  input[type="text"] {
+    width: 267px;
+    height: 40px; /* define uma altura */
+    border-radius: 8px; /* arrendonda as bordas */
+    padding: 8px;
+    margin: 5px;
+  }
+  
+  button {
+    margin: 5px;
+    width: 267px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: white;
+    padding: 8px;
+    background-color: #693c9d;
+    color: white;
+    cursor: pointer; /* define tipo de cursor (pointer - mãozinha de clique) */
+  }
+  
+  .centralizar {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* essa é uma propriedade do display flex, para justificar itens */
+  }
+  
+  .todasAsSeries {
+    width: 550px;
+    display: flex;
+    gap: 12px; /* essa é uma propriedade do display flex, para adicionar espaçamento entre elementos tanto em linhas quando nas colunas*/
+    flex-wrap: wrap;
+  }
+  
+  /* .serie é a classe usada para cada jogo (caixinha individual) */
+  .serie {
+    width: 267px;
+    height: 300px;
+    border-radius: 8px;
+    border: 1px solid white; /* cria uma borda ao redor do elemento, passar a expessura, o tipo (usei solid), e uma cor */
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .serie a {
+    color: white;
+  }
+  
+  .imagens {
+    width: 225px;
+    height: 150px;
+  }
+  
