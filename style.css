@@ -93,7 +93,7 @@
     width: 267px;
     height: 300px;
     border-radius: 8px;
-    border: 1px solid white; /* cria uma borda ao redor do elemento, passar a expessura, o tipo (usei solid), e uma cor */
+    border: 1px solid white;
     padding: 8px;
     display: flex;
     flex-direction: column;
