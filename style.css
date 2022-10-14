@@ -82,7 +82,7 @@
   }
   
   .todasAsSeries {
-    width: 550px;
+    width: 80%;
     display: flex;
     gap: 12px; /* essa é uma propriedade do display flex, para adicionar espaçamento entre elementos tanto em linhas quando nas colunas*/
     flex-wrap: wrap;
